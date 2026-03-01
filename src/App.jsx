@@ -1,11 +1,12 @@
-import Card from "./components/ui/card";
+import LayoutCard from "./components/ui/layout-card";
+import Navbar from "./components/ui/nav";
 
 export default function App() {
   return (
-    <div className="h-screen w-full 
-    bg-slate-200
-    flex items-center justify-center">
-      <Card />
+    <div>
+
+      <Navbar />
+      <LayoutCard />
     </div>
   )
 }
