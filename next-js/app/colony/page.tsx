@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Colony() {
   return (
     <section className="w-full h-screen">
       <Image
-      src={"https://i.pinimg.com/736x/21/ce/52/21ce5263171481886a153ad6ab9d9c92.jpg"}
+      src={"https://i.pinimg.com/736x/76/7e/0d/767e0dbb34035007ee569b11337c799e.jpg"}
       alt=""
       width={1000}
       height={1000}
@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="font-bold text-4xl text-shadow-lg ">
-          HOME BASE
+          COLONY
         </h1>
       </div>
     </section>
